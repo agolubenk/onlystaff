@@ -4024,9 +4024,27 @@ blockquote span {
   .hero-area .hero-inner {
     height: 450px;
   }
-  .hero-area .hero-inner::before {
-    display: none;
-  }
+ .hero-area .hero-inner::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  width: 50%;
+  background-image: url(../images/hero/hero-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  height: 100%;
+  top: 0px;
+  z-index: 1;
+  border-radius: 0;
+  border-radius: 100%;
+  height: 800px;
+  width: 800px;
+  right: -135px;
+  z-index: -1;
+}
+
   .hero-area .hero-text {
     float: none;
     margin-top: 140px;
@@ -4410,13 +4428,36 @@ blockquote span {
   .breadcrumbs .bread-list {
     margin-top: 8px;
   }
-  .hero-area .hero-inner {
-    height: 400px;
-    overflow: visible;
-  }
-  .hero-area .hero-inner::before {
-    display: none;
-  }
+.hero-area .hero-inner {
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 3;
+}
+
+.hero-area .hero-inner::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  width: 50%;
+  background-image: url(../images/hero/hero-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  height: 100%;
+  top: 280px;
+  z-index: 1;
+  border-radius: 0;
+  border-radius: 100%;
+  height: 440px;
+  width: 440px;
+  right: -54px;
+  z-index: -1;
+}
+
+
   .hero-area .hero-text {
     float: none;
     margin-top: 100px;
