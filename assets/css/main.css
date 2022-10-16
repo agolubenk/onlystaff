@@ -1015,7 +1015,7 @@ ol {
 
 .section-title.align-left {
   padding: 0;
-  padding-right: 600px;
+  padding-right: 200px;
 }
 
 .section-title.align-left h2:before {
@@ -1464,7 +1464,7 @@ ol {
 }
 
 .navbar-brand img {
-  width: 150px;
+  width: 48px;
 }
 
 .navbar-toggler {
@@ -3806,7 +3806,7 @@ blockquote span {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #00008b;
+  background-color: #0dcaf0;
   border-radius: 100%;
   z-index: -1;
   opacity: 0;
@@ -3841,7 +3841,7 @@ blockquote span {
   text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
-  border-left: 3px solid #00008b;
+  border-left: 3px solid #0dcaf0;
   padding-left: 10px;
   padding-top: 3px;
 }
@@ -3961,7 +3961,7 @@ blockquote span {
     bottom: 55px;
   }
   .navbar-brand img {
-    width: 130px;
+    width: 48px;
   }
   .header.index2 .navbar .navbar-nav .nav-item a {
     color: #081828;
@@ -4368,7 +4368,7 @@ blockquote span {
     bottom: 55px;
   }
   .navbar-brand img {
-    width: 130px;
+    width: 32px;
   }
   .header.index2 .navbar .navbar-nav .nav-item a {
     color: #081828;
